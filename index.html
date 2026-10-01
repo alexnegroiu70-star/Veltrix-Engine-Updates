@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Veltrix Engine - Official Website</title>
+
+    <meta name="description"
+          content="Veltrix Engine is a game engine currently in development. Download the latest version for Windows.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #080b10;
+            color: white;
+            min-height: 100vh;
+        }
+
+        header {
+            height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 8%;
+            background: #0d1117;
+            border-bottom: 1px solid #202630;
+        }
+
+        .brand {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: #c9d1d9;
+            text-decoration: none;
+            margin-left: 30px;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        .hero {
+            min-height: calc(100vh - 75px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero-content {
+            max-width: 850px;
+        }
+
+        .version {
+            display: inline-block;
+            background: #111827;
+            border: 1px solid #263244;
+            color: #58a6ff;
+            padding: 8px 16px;
+            border-radius: 30px;
+            margin-bottom: 25px;
+            font-size: 14px;
+        }
+
+        h1 {
+            font-size: 68px;
+            margin-bottom: 20px;
+            letter-spacing: -2px;
+        }
+
+        .blue {
+            color: #2f81f7;
+        }
+
+        .description {
+            color: #9ba7b4;
+            font-size: 20px;
+            line-height: 1.6;
+            margin: 0 auto 35px;
+            max-width: 700px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        .download {
+            background: #2f81f7;
+            color: white;
+        }
+
+        .download:hover {
+            background: #1f6feb;
+            transform: translateY(-2px);
+        }
+
+        .github {
+            border: 1px solid #30363d;
+            color: white;
+            background: #161b22;
+        }
+
+        .github:hover {
+            background: #21262d;
+        }
+
+        .info {
+            margin-top: 45px;
+            color: #6e7681;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #6e7681;
+            border-top: 1px solid #202630;
+            background: #0d1117;
+        }
+
+        @media (max-width: 700px) {
+            h1 {
+                font-size: 45px;
+            }
+
+            header {
+                padding: 0 20px;
+            }
+
+            nav {
+                display: none;
+            }
+
+            .description {
+                font-size: 17px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="brand">
+        Veltrix Engine
+    </div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#download">Download</a>
+        <a href="https://github.com/alexnegroiu70-star/Veltrix-Engine-Updates">
+            GitHub
+        </a>
+    </nav>
+</header>
+
+<main id="home" class="hero">
+
+    <div class="hero-content">
+
+        <div class="version">
+            Latest version: 0.4.6
+        </div>
+
+        <h1>
+            Build with
+            <span class="blue">Veltrix Engine</span>
+        </h1>
+
+        <p class="description">
+            Veltrix Engine is a game engine currently in development
+            for Windows. The project is continuously evolving with
+            new tools, features and improvements.
+        </p>
+
+        <div class="buttons" id="download">
+
+            <a
+                class="button download"
+                href="https://github.com/alexnegroiu70-star/Veltrix-Engine-Updates/releases/download/v0.4.6/VeltrixEngineSetup-0.4.6.exe">
+                Download Veltrix Engine 0.4.6
+            </a>
+
+            <a
+                class="button github"
+                href="https://github.com/alexnegroiu70-star/Veltrix-Engine-Updates">
+                View on GitHub
+            </a>
+
+        </div>
+
+        <div class="info">
+            Windows 64-bit • Version 0.4.6 • Currently in development
+        </div>
+
+    </div>
+
+</main>
+
+<footer>
+    © 2026 Veltrix Engine
+</footer>
+
+</body>
+</html>
